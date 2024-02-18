@@ -1,11 +1,13 @@
-const Options = ({onUpdate, onReset, total}) => {
+import css from './Options.module.css'
+
+const Options = ({ onUpdate, onReset, total }) => {
     return (
         <>
-            <button onClick={() => onUpdate('good')}>Good</button>
-            <button onClick={() => onUpdate('neutral')}>Neutral</button>
-            <button onClick={() => onUpdate('bad')}>Bad</button>
+            <button className={css.btn} onClick={() => onUpdate('good')}>Good</button>
+            <button className={css.btn} onClick={() => onUpdate('neutral')}>Neutral</button>
+            <button className={css.btn} onClick={() => onUpdate('bad')}>Bad</button>
             {total > 0 && (
-                <button onClick={onReset}>Reset</button>
+                <button className={css.btnReset} onClick={onReset}>Reset</button>
             )}   
         </>
     );

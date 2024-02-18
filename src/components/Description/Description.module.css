@@ -1,0 +1,11 @@
+.title {
+    color:tomato;
+    margin: 8px;
+}
+
+.description {
+    margin-bottom: 8px;
+    color: #fff;
+    font-weight:600;
+    font-size: 18px;
+}
