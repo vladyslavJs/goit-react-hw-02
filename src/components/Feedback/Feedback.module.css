@@ -1,4 +1,7 @@
 .feedBck {
-    
-
+    background-color: #fff;
+    color:#111;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 5px;
 }
