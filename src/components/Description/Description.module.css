@@ -1,11 +1,16 @@
 .title {
-    color:tomato;
+    color:#EC2D01;
     margin: 8px;
+    font-size: 48px;   
 }
 
 .description {
-    margin-bottom: 8px;
     color: #fff;
-    font-weight:600;
-    font-size: 18px;
+    font-weight:400;
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    margin: 0 auto;
+    width: 475px;
+    padding: 8px;
 }
