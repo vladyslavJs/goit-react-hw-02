@@ -9,7 +9,7 @@
 
   text-align: center;
   align-items: center;
-  font-synthesis: none;
+  
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -23,7 +23,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p
+ {
   margin: 0;
 }
 
@@ -43,6 +44,20 @@ a:hover {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: #fff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  border: 1px solid transparent;
+  text-align: center;
 }
 
 
