@@ -2,7 +2,7 @@ import css from './Options.module.css'
 import { AiOutlineLike } from "react-icons/ai";
 import { AiOutlineDislike } from "react-icons/ai";
 import { BsEmojiNeutral } from "react-icons/bs";
-import { GrPowerReset } from "react-icons/gr";
+import { GrPowerReset} from "react-icons/gr";
 
 const Options = ({ onUpdate, onReset, total }) => {
     return (
